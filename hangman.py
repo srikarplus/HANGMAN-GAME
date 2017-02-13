@@ -1,9 +1,9 @@
-# Hangman game
+ # Hangman game
 
 
 import random
 
-WORDLIST_FILENAME = "words.txt"
+WORDLIST_FILENAME = "words.txt"  # Make sure words.txt is in the current working directory
 
 def loadWords():
     """
